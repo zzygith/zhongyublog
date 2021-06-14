@@ -1,15 +1,15 @@
 .details h2 {
-  font-size: 3.5em;
-  margin-top: 80px;
+  font-size: 3.5rem;
+  margin-top: 4rem;
 }
 .details h3 {
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .html {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 .featured {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
