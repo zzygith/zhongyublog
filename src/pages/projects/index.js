@@ -5,7 +5,6 @@ import * as styles from '../../styles/projects.module.css'
 import Img from 'gatsby-image'
 
 const Projects = ({ data }) => {
-  console.log(data);
   const projects = data.projects.nodes;
   
   return (
@@ -35,7 +34,10 @@ export default Projects
 // export page query
 export const query = graphql`
   query ProjectsPage {
-    projects: allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
+    projects: allMarkdownRemark(
+      sort: {order: DESC, fields: frontmatter___date}
+      filter: {frontmatter: {type: {eq: "project"}}}
+    ) {
       nodes {
         frontmatter {
           slug

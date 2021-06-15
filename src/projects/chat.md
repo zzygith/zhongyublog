@@ -5,6 +5,7 @@ slug: chatui-app
 date: 2021-02-01T00:00:00+00:00
 thumb: ../images/thumbs/chatui.png
 featuredImg: ../images/featured/chatui-banner.png
+type: project
 ---
 
 <a href="https://chatui-show.netlify.app" target="_blank">Demo URL: `https://chatui-show.netlify.app` </a>

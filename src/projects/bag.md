@@ -1,10 +1,11 @@
 ---
 title: Recognition and Classification of Paper-Plastic Bags
 stack: Python & OpenCV & SIFT & FLANN & CART tree
-slug: real-kitchen-food
+slug: Recognition and Classification of Paper-Plastic Bags
 date: 2021-01-05T00:00:00+00:00
 thumb: ../images/thumbs/bag.png
 featuredImg: ../images/featured/bag-banner.png
+type: project
 ---
 
 ### Abstract
