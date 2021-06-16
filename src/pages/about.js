@@ -61,7 +61,7 @@ const About = () => {
         <br/>
         <h3>Instant Messaging UI</h3>
         <p><em>React &#x26; React Router &#x26; React Spring &#x26; Styled Component &#x26; Storybook</em></p>
-        <p>Demo URL：<a href="https://chatui-show.netlify.app">https://chatui-show.netlify.app</a></p>
+        <p>Demo URL：<a href="https://chatui-show.netlify.app" target ="_blank" rel="noreferrer">https://chatui-show.netlify.app</a></p>
         <ul style={{listStylePosition:'inside'}}>
         <li>Used React + Hooks to develop a single-page chat application UI including 30+ components</li>
         <li>Built a three-column layout including navbar, message list and chat list by CSS-in-JS Grid, Flexbox</li>
@@ -71,7 +71,7 @@ const About = () => {
         <br/>
         <h3>Portfolio Site</h3>
         <p><em>GatsbyJS &#x26; CSS Modules &#x26; GraphQL</em></p>
-        <p>Demo URL：<a href="https://zhongyublog.netlify.app/">https://zhongyublog.netlify.app/</a></p>
+        <p>Demo URL：<a href="https://zhongyublog.netlify.app" target ="_blank" rel="noreferrer">https://zhongyublog.netlify.app</a></p>
         <ul style={{listStylePosition:'inside'}}>
         <li>Converted my original portfolio from an HTML file to a React app using GatsbyJS and CSS Modules</li>
         <li>Used GraphQL to access markdown and other data</li>
@@ -79,7 +79,7 @@ const About = () => {
         <br/>
         <h3>Backstage Management</h3>
         <p><em>HTML &#x26; CSS &#x26; Javascript &#x26; JQuery</em></p>
-        <p>Demo URL：<a href="https://zhongyublog.netlify.app/">https://zhongyublog.netlify.app/</a></p>
+        <p>Demo URL：<a href="https://backstage-show.netlify.app" target ="_blank" rel="noreferrer">https://backstage-show.netlify.app</a></p>
         <ul style={{listStylePosition:'inside'}}>
         <li>Built a basic front-end user interface that allows webmaster to add, modify and remove content</li>
         <li>Third-party APIs used to verify or change user information, create drafts or publish articles</li>
