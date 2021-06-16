@@ -48,7 +48,7 @@ const About = () => {
           <br />
           <div>
         <ul style={{listStylePosition:'inside'}}>
-        <li>HTML5 / CSS3 / Flexbox / Grid / BootStrap / Layui</li>
+        <li>HTML5 / CSS3 / Flexbox / Grid / Bootstrap / Layui</li>
         </ul>
         <br/>
         <ul style={{listStylePosition:'inside'}}>
