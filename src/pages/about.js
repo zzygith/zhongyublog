@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 
 const About = ({ data }) => {
   console.log(data.markdownRemark.html);
+
   return (
     <Layout>
       <div>

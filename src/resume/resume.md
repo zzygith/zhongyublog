@@ -1,6 +1,6 @@
 ---
-title: "resume"
-
+title: resume
+slug: resume
 type: resume
 ---
 
