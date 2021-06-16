@@ -104,11 +104,18 @@ Demo URL：[https://zhongyublog.netlify.app/](https://zhongyublog.netlify.app/)
 
 <br/>
 
+### 2D Human-Pose Estimation In Realtime
+
+_Python & OpenCV & OpenPose_
+
+- Used the OpenPose algorithm to detect the pose of human
+- Calculated the angle between Neck-Nose line and Neck-Crotch line to correct student’s sitting position
+
+<br/>
+
 ### Recognition and Classification of Paper-Plastic Bags
 
 _Python & OpenCV & SIFT & FLANN & CART tree_
-
-Demo URL：[https://zhongyublog.netlify.app/](https://zhongyublog.netlify.app/)
 
 - Used the SIFT algorithm and FLANN fast matching to achieve the classification of different bags.
 - Detected rectangles to identify the stacking by Hough transform line detection algorithm
