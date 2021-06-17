@@ -87,13 +87,15 @@ const About = () => {
         <br/>
         <h3>2D Human-Pose Estimation In Realtime</h3>
         <p><em>Python &#x26; OpenCV &#x26; OpenPose</em></p>
+        <p>Demo URL：<a href="https://github.com/zzygith/pose-detection" target ="_blank" rel="noreferrer">https://github.com/zzygith/pose-detection</a></p>
         <ul style={{listStylePosition:'inside'}}>
         <li>Used the OpenPose algorithm to detect the pose of human</li>
         <li>Calculated the angle between Neck-Nose line and Neck-Crotch line to correct student’s sitting position</li>
         </ul>
         <br/>
         <h3>Recognition and Classification of Paper-Plastic Bags</h3>
-        <p><em>Python &#x26; OpenCV &#x26; SIFT &#x26; FLANN &#x26; CART tree</em></p>
+          <p><em>Python &#x26; OpenCV &#x26; SIFT &#x26; FLANN &#x26; CART tree</em></p>
+          <p>Demo URL：<a href="https://github.com/zzygith/Recognition-and-Classification-of-Paper-Plastic-Bags" target ="_blank" rel="noreferrer">https://github.com/zzygith/Recognition-and-Classification-of-Paper-Plastic-Bags</a></p>
         <ul style={{listStylePosition:'inside'}}>
         <li>Used the SIFT algorithm and FLANN fast matching to achieve the classification of different bags.</li>
         <li>Detected rectangles to identify the stacking by Hough transform line detection algorithm</li>

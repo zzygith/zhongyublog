@@ -8,6 +8,8 @@ featuredImg: ../images/featured/pose-banner.png
 type: project
 ---
 
+<a href="https://github.com/zzygith/pose-detection" target="_blank">Demo URL: `https://github.com/zzygith/pose-detection` </a>
+
 ### Abstract
 
 We detect pose of human (single and multiple people) in 2D image. Human-pose estimation plays an important role in many areas such as camera system, e-games, and even biomedical engineering. Digging up the effective data of human-beings and locating human-being’s pose to achieve interaction between human-beings and machines will have broad prospects.

@@ -8,6 +8,8 @@ featuredImg: ../images/featured/bag-banner.png
 type: project
 ---
 
+<a href="https://github.com/zzygith/Recognition-and-Classification-of-Paper-Plastic-Bags" target="_blank">Demo URL: `https://github.com/zzygith/Recognition-and-Classification-of-Paper-Plastic-Bags` </a>
+
 ### Abstract
 
 Paper-plastic composite printed matter is a common packaging material, with good strength and waterproof, safe, non-toxic and environmentally friendly. It is widely applied in the packaging of various products. Seed packing bags are one of them. In some enterprises, different kinds of seed bags are sorted and the printing quality are checked by artificial means, which is inefficient and costly.
