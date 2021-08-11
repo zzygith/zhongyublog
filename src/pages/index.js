@@ -12,7 +12,7 @@ export default function Home({data}) {
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
           <p>Web developer based in Edmonton.</p>
-          <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
+          <Link className={styles.btn} to="/portfolio">My Portfolio Projects</Link>
         </div>
         <Img fluid={data.file.childImageSharp.fluid} />
       </section>

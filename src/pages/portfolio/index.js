@@ -15,7 +15,7 @@ const Projects = ({ data }) => {
         <h3>Projects & Websites I've Created</h3>
         <div className={styles.projects} >
           {projects.map(project => (
-            <Link to={'/projects/' + project.frontmatter.slug} key={project.id} >
+            <Link to={'/portfolio/' + project.frontmatter.slug} key={project.id} >
               <div>
               <Img fluid={project.frontmatter.thumb.childImageSharp.fluid} imgStyle={{transition:"0.4s"}} />
                 <h3>{project.frontmatter.title}</h3>

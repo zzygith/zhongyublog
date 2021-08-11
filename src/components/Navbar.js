@@ -18,8 +18,8 @@ export default function Navbar() {
       <h1>{ title }</h1>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/about">Resume</Link>
-        <Link to="/projects">Portfolio</Link>
+        <Link to="/resume">Resume</Link>
+        <Link to="/portfolio">Portfolio</Link>
       </div>
     </nav>
   )
