@@ -71,7 +71,7 @@ const About = () => {
         <br/>
         <h3>Portfolio Site</h3>
         <p><em>GatsbyJS &#x26; CSS Modules &#x26; GraphQL</em></p>
-        <p>Demo URL：<a href="https://zhongyublog.netlify.app" target ="_blank" rel="noreferrer">https://zhongyublog.netlify.app</a></p>
+        <p>Demo URL：<a href="https://www.webzhongyu.com" target ="_blank" rel="noreferrer">https://www.webzhongyu.com</a></p>
         <ul style={{listStylePosition:'inside'}}>
         <li>Converted my original portfolio from an HTML file to a React app using GatsbyJS and CSS Modules</li>
         <li>Used GraphQL to access markdown and other data</li>

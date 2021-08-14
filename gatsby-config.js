@@ -10,6 +10,7 @@
      `gatsby-transformer-remark`,
      `gatsby-transformer-sharp`,
      `gatsby-plugin-sharp`,
+     `gatsby-plugin-react-head`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
