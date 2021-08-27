@@ -20,7 +20,7 @@ const About = () => {
         <div>
         <div>
         <a href="https://www.ualberta.ca/index.html" target ="_blank" rel="noreferrer"><h3 style={{ display: "inline-block" }}>University of Alberta</h3></a>&emsp;
-              <span>(2020.09-2022.05)</span>
+              <span>(2020.09-2022.04)</span>
               <span style={{ float:"right"}}>
           Edmonton, Alberta, Canada
           </span>

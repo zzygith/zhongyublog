@@ -10,7 +10,7 @@ type: project
 
 <a href="https://backstage-show.netlify.app" target="_blank">Demo URL: `https://backstage-show.netlify.app` </a>
 
-Username:zhongyu Password:zhongyu123
+Example: Username:zhongyu Password:zhongyu123
 
 - Built a basic front-end user interface that allows webmaster to add, modify and remove content
 
