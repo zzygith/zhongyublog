@@ -27,7 +27,7 @@ const About = () => {
           </div>
           <br/>
           <div>
-          Master's Degree&emsp;Electrical and Computer Engineering
+          Master's Degree&emsp;Electrical and Computer Engineering&emsp;GPA:3.8/4.0
           </div>
           <br/>
           <div>
@@ -39,7 +39,7 @@ const About = () => {
           </div>
           <br/>
         <div>
-        Bachelor‘s Degree&emsp;Automation
+        Bachelor‘s Degree&emsp;Automation&emsp;GPA:83.66/100
         </div>
         </div>
         <br/>
