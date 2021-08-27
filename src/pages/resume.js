@@ -52,8 +52,12 @@ const About = () => {
         </ul>
         <br/>
         <ul style={{listStylePosition:'inside'}}>
-        <li>JavaScript / JQuery / React / Redux / Styled Component / Storybook / Gatsby / GraphQL / Git / Python</li>
-          </ul>
+        <li>JavaScript / JQuery / React / Redux / Styled Component / Storybook / Gatsby / GraphQL</li>
+        </ul>
+        <br/>
+        <ul style={{listStylePosition:'inside'}}>
+        <li>NodeJS / ExpressJS / MySQL / Python / Git</li>
+        </ul>
           </div>
           <br />
         <h2>Project</h2>
@@ -78,11 +82,11 @@ const About = () => {
         </ul>
         <br/>
         <h3>Backstage Management</h3>
-        <p><em>HTML &#x26; CSS &#x26; Javascript &#x26; JQuery</em></p>
+        <p><em>HTML &#x26; CSS &#x26; Javascript &#x26; JQuery &#x26; NodeJS &#x26; ExpressJS &#x26; MySQL</em></p>
         <p>Demo URL：<a href="https://backstage-show.netlify.app" target ="_blank" rel="noreferrer">https://backstage-show.netlify.app</a></p>
         <ul style={{listStylePosition:'inside'}}>
         <li>Built a basic front-end user interface that allows webmaster to add, modify and remove content</li>
-        <li>Third-party APIs used to verify or change user information, create drafts or publish articles</li>
+        <li>Designed RESTful APIs to verify or change user information, create drafts or publish articles</li>
         </ul>
         <br/>
         <h3>2D Human-Pose Estimation In Realtime</h3>

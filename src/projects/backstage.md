@@ -1,6 +1,6 @@
 ---
 title: Backstage Mangement System
-stack: HTML & CSS & Javascript & JQuery
+stack: HTML & CSS & Javascript & JQuery & NodeJS & ExpressJS & MySQL
 slug: Backstage Mangement System
 date: 2021-01-18T00:00:00+00:00
 thumb: ../images/thumbs/backstage.png
@@ -14,4 +14,4 @@ Username:zhongyu Password:zhongyu123
 
 - Built a basic front-end user interface that allows webmaster to add, modify and remove content
 
-* Third-party APIs used to verify or change user information, create drafts or publish articles
+* Designed RESTful APIs to verify or change user information, create drafts or publish articles
