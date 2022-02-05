@@ -12,7 +12,6 @@ const About = () => {
           </h1>
           <center>
             <p>
-              <strong>Phone:</strong> 1-5875966983 
               <a
                 href="https://github.com/zzygith"
                 target="_blank"
