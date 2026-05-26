@@ -20,9 +20,9 @@ export default function Layout({ children }) {
     <div className="layout">
       <Head />
       <Navbar />
-      <div className="content">
+      <main className="content">
         { children }
-      </div>
+      </main>
       <footer>
         <p>{ copyright }</p>
       </footer>

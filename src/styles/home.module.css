@@ -1,22 +1,87 @@
-.header {
+.home {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2.5rem;
-  align-items: center;
+  grid-template-columns: 270px minmax(0, 1fr);
+  column-gap: 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.2rem 0 2rem;
 }
-.header h2 {
-  font-size: 4rem;
-}
-.header h3 {
-  font-size: 3rem;
-  font-weight: 400;
-  margin-bottom: 1.3rem;
-}
-.btn {
+
+.profile h1 {
   display: inline-block;
-  background: #d42990;
-  padding: 0.5rem 1rem;
-  border-radius: 0.6rem;
-  margin-top: 1.3rem;
-  font-weight: 500;
+  color: #202124;
+  font-size: 1.9rem;
+  line-height: 1.08;
+  margin: 0 0 1.1rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.11em;
+  text-underline-offset: 0.16em;
+}
+
+.photo {
+  width: 270px;
+}
+
+.photo img {
+  aspect-ratio: 0.9 / 1;
+  border-radius: 6px;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.main {
+  padding-top: 3.4rem;
+}
+
+.home p {
+  color: #202124;
+  font-size: 1.08rem;
+  line-height: 1.72;
+  margin: 0 0 1.65rem;
+}
+
+.home a {
+  font-weight: 400;
+}
+
+.note {
+  background: #eef5f8;
+  border-left: 3px solid #1595e6;
+  border-radius: 4px;
+  padding: 0.95rem 1.15rem;
+}
+
+.note strong {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 760px) {
+  .home {
+    display: block;
+    max-width: 460px;
+    padding: 2rem 0;
+  }
+
+  .profile h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .photo {
+    width: min(270px, 100%);
+    margin: 0 auto 2.6rem;
+  }
+
+  .main {
+    padding-top: 0;
+  }
+
+  .home p {
+    font-size: 1rem;
+    line-height: 1.62;
+    margin-bottom: 1.35rem;
+  }
 }

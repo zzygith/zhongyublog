@@ -15,11 +15,16 @@ export default function Navbar() {
 
   return (
     <nav>
-      <h1>{ title }</h1>
+      <Link className="site-title" to="/" aria-label={title}>
+        &lt;/&gt;
+      </Link>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/resume">Resume</Link>
-        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/research">research/</Link>
+        <Link to="/portfolio">toys/</Link>
+        <Link to="/resume">cv(web)/</Link>
+        <a href="/cv_pdf/zhongyu_cv.pdf" target="_blank" rel="noreferrer">
+          cv(pdf)/
+        </a>
       </div>
     </nav>
   )

@@ -25,11 +25,18 @@
         path: `${__dirname}/src/images/`,
       },
      },
+     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `research`,
+        path: `${__dirname}/research/`,
+      },
+     },
   ],
   siteMetadata: {
     title: 'Zhongyu Zhang',
-    description: 'web dev portfolio',
-    copyright: '@Zhongyu Zhang, 2021',
+    description: 'Personal website and project portfolio',
+    copyright: 'Zhongyu Zhang',
     contact: 'zhangzhongyu98@gmail.com',
   },
 }

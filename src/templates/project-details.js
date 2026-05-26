@@ -11,8 +11,9 @@ const ProjectDetails = ({ data }) => {
   return (
     <Layout>
       <div className={styles.details}>
-        <h2>{title}</h2>
-        <h3>{stack}</h3>
+        <p className={styles.eyebrow}>Project</p>
+        <h1>{title}</h1>
+        <p className={styles.stack}>{stack}</p>
         <div className={styles.featured}>
           <Img fluid={featuredImg.childImageSharp.fluid} />
         </div>

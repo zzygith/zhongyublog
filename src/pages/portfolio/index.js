@@ -9,16 +9,29 @@ const Projects = ({ data }) => {
   
   return (
     <Layout>
-    
       <div className={styles.portfolio}>
-        <h2>Portfolio</h2>
-        <h3>Projects & Websites I've Created</h3>
+        <header className={styles.header}>
+          <p>Toys</p>
+          <h1>Toys and Selected Work</h1>
+          <span>
+            A compact archive of web interfaces, full-stack experiments, and
+            computer vision projects.
+          </span>
+        </header>
         <div className={styles.projects} >
           {projects.map(project => (
-            <Link to={'/portfolio/' + project.frontmatter.slug} key={project.id} >
+            <Link
+              className={styles.project}
+              to={'/portfolio/' + project.frontmatter.slug}
+              key={project.id}
+            >
+              <Img
+                className={styles.thumb}
+                fluid={project.frontmatter.thumb.childImageSharp.fluid}
+                imgStyle={{ transition: "0.4s" }}
+              />
               <div>
-              <Img fluid={project.frontmatter.thumb.childImageSharp.fluid} imgStyle={{transition:"0.4s"}} />
-                <h3>{project.frontmatter.title}</h3>
+                <h2>{project.frontmatter.title}</h2>
                 <p>{project.frontmatter.stack}</p>
               </div>
             </Link>
